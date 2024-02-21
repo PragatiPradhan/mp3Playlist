@@ -1,0 +1,38 @@
+.app-container {
+  background-color: rgb(193, 246, 193);
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 70px;
+  border: #0f0f0f;
+  border-radius: 15px;
+}
+
+.file-input {
+  margin-bottom: 20px;
+}
+
+.playlist-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.play-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+.play-button:hover {
+  background-color: #819bb5;
+}
+
+.audio-player {
+  width: 100%;
+  margin-top: 20px;
+}
